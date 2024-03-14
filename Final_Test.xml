@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="End_To_End">
+    <classes>
+      <class name="Startup.BeforeAfterSuit"/>
+      <class name="Startup.Description"/>
+      <class name="Startup.Before_After"/>
+      <class name="Startup.Enabled_"/>
+      <class name="Startup.Priority_"/>
+      <class name="Startup.BeforeAfterTest"/>
+      <class name="Startup.NewTest"/>
+      <class name="Startup.BeforeAfterClass"/>
+    </classes>
+  </test> <!-- End_To_End -->
+</suite> <!-- Suite -->
